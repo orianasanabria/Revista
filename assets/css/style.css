@@ -192,6 +192,7 @@ body, header, nav, main, a, section, footer, aside, article, span, p, h1, h2, h3
   }
   .aside__featured--item-photo {
     margin: 15px 0;
+    width: 100%;
   }
 }
 
@@ -376,6 +377,7 @@ body, header, nav, main, a, section, footer, aside, article, span, p, h1, h2, h3
   }
   .aside__featured--item-photo {
     margin: 15px 0;
+    width: 100%;
   }
 }
 
