@@ -1,0 +1,32 @@
+.aside {
+    @media (min-width: 992px) {
+    &__tags {
+        border-bottom: $gray solid 1px;
+        &--list {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            &-item {
+                margin: 5px;
+                padding: .3em .5em;
+                font-weight: 700;
+                font-size: $x-small;
+                margin-bottom: 20px;
+                display: inline-block;
+                color: $white;
+                background-color: $steelblue;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,56 @@
+.main {
+    display: grid;
+    grid-template-columns: 1fr;
+    &__card {
+        &--title {
+            font-size: $large;
+            padding: 1em 0;
+        }
+        &--photo {
+            width: 100%;
+            height: 30vh;
+        }
+        &--paragraph {
+            font-size: $small;
+            padding-top: 1em;
+        }
+        // Small devices (landscape phones, 576px and up)
+        @media (min-width: 576px) {
+            &--photo {
+                height: 50vh;
+            }
+        }
+    }
+    @media (min-width: 768px) {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            column-gap: 20px;
+            .hidden {
+                display: block;
+            }
+            &__card--photo {
+                height: 50vh;
+            }
+        }
+    @media (min-width: 992px) {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 20px;
+        .hidden {
+            display: block;
+        }
+        &__card--photo {
+            height: 70%;
+        }
+    }    
+}
+
+
+
+
+
+
+.hidden {
+    display: none;
+}
+

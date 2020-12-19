@@ -1,0 +1,28 @@
+.newsletter {
+    margin-top: 2em;
+    height: 250px;
+    background-color: $light-gray;
+    &__title {
+        font-size: $x-large;
+        font-weight: $bold;
+        text-align: center;
+        padding-top: 3em;
+    }
+    &__paragraph {
+        font-size: $small;
+        text-align: center;
+        padding: 1em 0;
+    }
+    &__input {
+        text-align: center;
+        input {
+            padding: .3em .6em;
+            border: 1px solid $white;
+        }
+    }
+    @media (min-width: 576px) {
+        input {
+            padding: .5em 3em;
+        }
+    }
+}

@@ -1,0 +1,16 @@
+.button {
+    color: $white;
+    font-size: $small;
+    padding: .3em .6em;
+    background-color: $coral;
+    border: 1px solid $coral;
+    margin-top: 1rem;
+    &:hover {
+        background-color: $salmon;
+        border-color: $salmon;
+        color: $white;
+    }
+    @media (min-width: 576px) {
+        padding: .5em 3em;
+    }
+}

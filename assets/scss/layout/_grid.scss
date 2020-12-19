@@ -1,0 +1,13 @@
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+@media (min-width: 992px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+    }
+}
